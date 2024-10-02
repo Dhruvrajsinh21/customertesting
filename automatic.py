@@ -84,7 +84,7 @@ def run_websocket(token, stop_event):
             }
             ws.send(json.dumps(pickup_payload))
             print("Pickup request sent:", pickup_payload)
-            time.sleep(random.randint(36, 60))  # Wait for a random time between 1 and 2 hours
+            time.sleep(random.randint(3600, 7200))  # Wait for a random time between 1 and 2 hours
 
     ws.on_open = on_open
 
