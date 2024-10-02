@@ -11,9 +11,9 @@ import streamlit as st
 fake = Faker()
 
 # Define the API URLs
-signup_url = "http://3.108.52.92//api/auth/customer/register/"
-login_url = "http://3.108.52.92//customersignin/"
-pickup_request_ws_url = "ws://3.108.52.92//ws/pickup_request/?token="
+signup_url = "http://3.108.52.92/api/auth/customer/register/"
+login_url = "http://3.108.52.92/customersignin/"
+pickup_request_ws_url = "ws://3.108.52.92/ws/pickup_request/?token="
 
 # Function to generate a 10-digit phone number
 def generate_10_digit_phone_number():
